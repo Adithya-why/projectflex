@@ -1,5 +1,8 @@
 body{
     font-family: roboto;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
 
 }
 
@@ -8,14 +11,23 @@ body{
 
 .header{
     background-color:#1F2937;
+    margin: 0px;
+    padding: 0px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
 }
 
 
-p#hea{
+.top{
     font-size: 24px;
     color: #F9FAF8;
 }
 
+.text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .headlist{
     list-style-type: none;
@@ -35,3 +47,38 @@ p#mh{
     font-weight:800;
     color:#F9FAF8;
 }
+
+button{
+    background-color: #3882F6;
+    color:white;
+    
+}
+
+
+.tophead{
+    display: flex;
+    justify-content: space-around;
+}
+
+.headlist{
+    display: flex;
+    gap:1rem;
+}
+
+
+.bottomhead{
+    display:flex;
+    flex-direction: row;
+}
+
+.bottop{
+    display:flex;
+    flex-direction: column;
+}
+
+.bottop button{
+    flex: 1 1 auto;
+    width:80px;
+    
+}
+
