@@ -3,10 +3,13 @@ body{
     margin: 0px;
     padding: 0px;
     display: flex;
+    flex-direction: column;
 
 }
 
-
+/*{
+    border: 2px solid red;
+}*/
 
 
 .header{
@@ -51,13 +54,14 @@ p#mh{
 button{
     background-color: #3882F6;
     color:white;
-    
+    margin-bottom: 10px;
 }
 
 
 .tophead{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .headlist{
@@ -69,6 +73,7 @@ button{
 .bottomhead{
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .bottop{
@@ -80,5 +85,48 @@ button{
     flex: 1 1 auto;
     width:80px;
     
+}
+
+.botbot{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.randomtext{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col1{
+    background-color: white;
+}
+
+
+.col2{
+    background-color: #E5E7EB;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    margin-top: 80px;
+    display: flex;
+
+}
+
+.imgcontain{
+    display: flex;
+    gap:4rem;
 }
 
